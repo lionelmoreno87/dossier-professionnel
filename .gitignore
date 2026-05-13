@@ -1,0 +1,13 @@
+# Terraform - fichiers sensibles et temporaires
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars          # contient souvent des clés/mots de passe
+
+# Clés SSH
+*.pem
+*.key
+
+# VS Code
+.vscode/
