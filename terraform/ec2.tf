@@ -1,7 +1,7 @@
 # --- Clé SSH ---
 resource "aws_key_pair" "devops" {
   key_name   = "devops-tp-key"
-  public_key = file("~/.ssh/devops_key.pub")
+  public_key = file("~/.ssh/devops_tp_key.pub")
 }
 
 # --- Instance EC2 ---
